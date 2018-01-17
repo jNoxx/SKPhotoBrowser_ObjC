@@ -390,7 +390,7 @@ NSUInteger const kPageIndexTagOffset = 1000;
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 - (void)hideControlsAfterDelay {
     [self cancelControlHiding];
-    self.controlVisibilityTimer = [NSTimer scheduledTimerWithTimeInterval:4 target:self selector:@selector(hideControls:) userInfo:nil repeats:NO];
+//    self.controlVisibilityTimer = [NSTimer scheduledTimerWithTimeInterval:4 target:self selector:@selector(hideControls:) userInfo:nil repeats:NO];
 }
 
 - (void)hideControls: (NSTimer *)timer {

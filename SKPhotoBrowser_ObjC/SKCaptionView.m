@@ -43,6 +43,7 @@
     _photoLabel.textColor = [SKCaptionOptions sharedInstance].textColor;
     _photoLabel.textAlignment = [SKCaptionOptions sharedInstance].textAlignment;
     _photoLabel.lineBreakMode = [SKCaptionOptions sharedInstance].lineBreakMode;
+    _photoLabel.numberOfLines = [SKCaptionOptions sharedInstance].numberOfLine;
     _photoLabel.font = [SKCaptionOptions sharedInstance].font;
     _photoLabel.shadowColor = [UIColor colorWithWhite:0 alpha:0.5];
     _photoLabel.shadowOffset = CGSizeMake(0, 1);
